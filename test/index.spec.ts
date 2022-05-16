@@ -1,13 +1,19 @@
-import 'mocha';
-import {expect} from 'chai';
-import {add} from '../src/index';
+// // import 'mocha';
+// // import {expect} from 'chai';
+// import 'mocha';
+// import {expect} from 'chai';
+// import {weatherInfoPromises} from '../src/index';
 
-describe ('add', () => {
-    it ('adds two numbers', () => {
-        expect(add(1, 2)).to.equal(3);
-    });
+// describe('Asynchronous function weatherInfoPromises tests', () => {
+//   it('weatherInfoPromises should get weather information', () => {
+//     return weatherInfoPromises('Tenerife, Spain').then((data) => {
+//       expect(data.body.location.name).to.be.equal('Tenerife');
+//     });
+//   });
 
-    it ('adds two negative numbers', () => {
-        expect(add(-1, -2)).to.equal(-3);
-    });
-});
+//   it('weatherInfoPromises should provide an error', () => {
+//     return weatherInfoPromises('12wherever').catch((err) => {
+//       expect(err).to.be.equal('request_failed');
+//     });
+//   });
+// });
